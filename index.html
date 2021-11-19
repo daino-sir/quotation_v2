@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Quotation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="logo-wrapper">
+            <img src="https://onepayclick.vercel.app/_nuxt/img/logo.b82b42b.png" alt="logo" class="logo">
+            <div class="text-container">
+                <p>Date: <input type="text" placeholder="@@startdate" style=" width: 3.2rem; font-size: 0.5rem;"></p>
+                <p>Expiry: <input type="text" placeholder="@@endDate" style=" width: 3.2rem; font-size: 0.5rem;"></p>
+            </div>
+        </div>
+        <br>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Loan Type</th>
+                <th>Period</th>
+            </tr>
+            <tr>
+                <td>@@name</td>
+                <td>@@phoneNumber</td>
+                <td>@@loanType</td>
+                <td>@@period month@@plural</td>
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>Desired Amount</th>
+                <th>Interest</th>
+                <th>Monthly Installments</th>
+
+            </tr>
+            <tr>
+                <td>@@desiredAmount</td>
+                <td>@@interest</td>
+                <td>@@monthlyInstallments</td>
+
+                A one off tracking fee of KES 20,000 or monthly installment of KES 3,000 is also incurred
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th>First Installment</th>
+                <th>Last Installment</th>
+            </tr>
+            <tr>
+                <td>@@firstInstallment</td>
+                <td>@@lastInstallment</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
