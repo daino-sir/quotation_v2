@@ -91,4 +91,7 @@ th {
         padding: 0;
         padding-right: 80%;
     }
+    .float-button {
+        display: none;
+    }
 }
