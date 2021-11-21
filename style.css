@@ -41,10 +41,6 @@
             padding: 10%;
         }
         
-        .wrapper>h1 {
-            font-size: 95%;
-        }
-        
         .logo {
             height: 25%;
             width: 25%;
@@ -88,8 +84,29 @@
         }
         
         @media print {
+            html {
+                margin-top: auto;
+                height: 100%;
+            }
             body {
+                width: fit-content;
+                height: 100%;
+                background-color: white;
+                color: black;
+                font-size: 5%;
+                justify-content: center;
                 padding: 0;
+                padding-top: 10%;
+            }
+            .wrapper {
+                height: 540px;
+                width: 100%;
+                padding: 2%;
+                margin: 0;
+            }
+            .logo {
+                height: 15%;
+                width: 25%;
             }
             .float-button {
                 display: none;
