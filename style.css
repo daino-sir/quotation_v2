@@ -95,3 +95,35 @@ th {
         display: none;
     }
 }
+
+@media screen and(max-width:411px) {
+    body {
+        width: 320px;
+        height: 548px;
+        background-color: rgb(182, 182, 182);
+        color: black;
+        font-size: 50%;
+        justify-content: center;
+        zoom: normal;
+        padding: unset;
+    }
+    .wrapper {
+        background: white;
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+    }
+    .wrapper>h1 {
+        font-size: 95%;
+    }
+    .logo {
+        height: 5%;
+        width: 5%;
+    }
+}
+
+@media screen and(max-width:1040px) {
+    body {
+        width: 1349px;
+    }
+}
