@@ -7,13 +7,13 @@
         body {
             width: 1349px;
             height: fit-content;
-            padding: 20%;
+            padding: 40%;
             padding-top: 0;
             padding-bottom: 0;
             height: 548px;
             background-color: rgb(182, 182, 182);
             color: black;
-            font-size: 90%;
+            font-size: 100%;
             justify-content: center;
         }
         
