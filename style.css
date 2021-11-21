@@ -90,7 +90,6 @@
         @media print {
             body {
                 padding: 0;
-                padding-right: 80%;
             }
             .float-button {
                 display: none;
@@ -134,14 +133,5 @@
                 width: 40px;
                 background-color: #172b35;
                 cursor: pointer;
-            }
-            @media print {
-                body {
-                    padding: 0;
-                    padding-right: 0;
-                }
-                .float-button {
-                    display: none;
-                }
             }
         }
