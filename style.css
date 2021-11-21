@@ -93,6 +93,7 @@
                 width: fit-content;
                 height: 100%;
                 background-color: white;
+                border: 1px solid red;
                 color: black;
                 font-size: 5%;
                 justify-content: center;
