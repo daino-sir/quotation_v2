@@ -87,6 +87,7 @@
             html {
                 margin-top: auto;
                 height: 100%;
+                border: 1px solid black;
             }
             body {
                 width: fit-content;
