@@ -99,21 +99,23 @@ th {
 
 @media screen and (max-width: 411px) {
     html {
-        border: black 2px solid;
+        margin-top: auto;
+        height: 100%;
     }
     body {
         width: fit-content;
-        height: fit-content;
+        height: 100%;
         background-color: white;
         color: black;
         font-size: 0.8%;
         justify-content: center;
         padding: 0;
+        padding-top: 20%;
     }
     .wrapper {
         height: 540px;
         width: 100%;
-        padding: 2%;
+        padding: 5%;
         margin: 0;
     }
     .logo {
@@ -122,10 +124,15 @@ th {
     }
     .float-button {
         position: fixed;
-        right: 0px;
-        top: 250px;
         transition: all 0.2s ease-in 0s;
         z-index: 9999;
+        cursor: pointer;
+    }
+    #button {
+        border-radius: 10px;
+        height: 40px;
+        width: 40px;
+        background-color: #172b35;
         cursor: pointer;
     }
 }
