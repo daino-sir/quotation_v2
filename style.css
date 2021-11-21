@@ -108,12 +108,11 @@ th {
         color: black;
         font-size: 0.8%;
         justify-content: center;
-        zoom: normal;
         padding: 0;
     }
     .wrapper {
         height: 540px;
-        width: 20rem;
+        width: 100%;
         padding: 2%;
         margin: 0;
     }
@@ -123,8 +122,8 @@ th {
     }
     .float-button {
         position: fixed;
-        right: 70px;
-        top: 150px;
+        right: 0px;
+        top: 250px;
         transition: all 0.2s ease-in 0s;
         z-index: 9999;
         cursor: pointer;
