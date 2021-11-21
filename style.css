@@ -1,138 +1,147 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    width: 1349px;
-    height: fit-content;
-    padding: 20%;
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 548px;
-    background-color: rgb(182, 182, 182);
-    color: black;
-    font-size: 90%;
-    justify-content: center;
-}
-
-.float-button {
-    position: fixed;
-    right: 10px;
-    top: 270px;
-    transition: all 0.2s ease-in 0s;
-    z-index: 9999;
-    cursor: pointer;
-}
-
-#button {
-    border-radius: 10px;
-    height: 60px;
-    width: 60px;
-    background-color: #172b35;
-    cursor: pointer;
-}
-
-.wrapper {
-    background: white;
-    width: 100%;
-    height: fit-content;
-    padding: 10%;
-}
-
-.wrapper>h1 {
-    font-size: 95%;
-}
-
-.logo {
-    height: 25%;
-    width: 25%;
-}
-
-.text-container {
-    width: fit-content;
-    height: fit-content;
-    margin-top: -20%;
-    margin-left: 72%;
-    margin-bottom: 10%;
-}
-
-input {
-    border: none;
-}
-
-br {
-    margin-top: 50%;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 10%;
-}
-
-td,
-th {
-    border: 1px solid #dddddd;
-    border-left: none;
-    border-right: none;
-    text-align: center;
-    padding: 8px;
-}
-
-th {
-    background-color: rgb(85, 85, 85);
-    color: white;
-}
-
-@media print {
-    body {
-        padding: 0;
-        padding-right: 80%;
-    }
-    .float-button {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 411px) {
-    html {
-        margin-top: auto;
-        height: 100%;
-    }
-    body {
-        width: fit-content;
-        height: 100%;
-        background-color: white;
-        color: black;
-        font-size: 0.8%;
-        justify-content: center;
-        padding: 0;
-        padding-top: 20%;
-    }
-    .wrapper {
-        height: 540px;
-        width: 100%;
-        padding: 5%;
-        margin: 0;
-    }
-    .logo {
-        height: 15%;
-        width: 25%;
-    }
-    .float-button {
-        position: fixed;
-        transition: all 0.2s ease-in 0s;
-        z-index: 9999;
-        cursor: pointer;
-    }
-    #button {
-        border-radius: 10px;
-        height: 40px;
-        width: 40px;
-        background-color: #172b35;
-        cursor: pointer;
-    }
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            width: 1349px;
+            height: fit-content;
+            padding: 20%;
+            padding-top: 0;
+            padding-bottom: 0;
+            height: 548px;
+            background-color: rgb(182, 182, 182);
+            color: black;
+            font-size: 90%;
+            justify-content: center;
+        }
+        
+        .float-button {
+            position: fixed;
+            right: 10px;
+            top: 270px;
+            transition: all 0.2s ease-in 0s;
+            z-index: 9999;
+            cursor: pointer;
+        }
+        
+        #button {
+            border-radius: 10px;
+            height: 60px;
+            width: 60px;
+            background-color: #172b35;
+            cursor: pointer;
+        }
+        
+        .wrapper {
+            background: white;
+            width: 100%;
+            height: fit-content;
+            padding: 10%;
+        }
+        
+        .wrapper>h1 {
+            font-size: 95%;
+        }
+        
+        .logo {
+            height: 25%;
+            width: 25%;
+        }
+        
+        .text-container {
+            width: fit-content;
+            height: fit-content;
+            margin-top: -20%;
+            margin-left: 72%;
+            margin-bottom: 10%;
+        }
+        
+        input {
+            border: none;
+        }
+        
+        br {
+            margin-top: 50%;
+        }
+        
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #dddddd;
+            border-left: none;
+            border-right: none;
+            text-align: center;
+            padding: 8px;
+        }
+        
+        th {
+            background-color: rgb(85, 85, 85);
+            color: white;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                padding-right: 80%;
+            }
+            .float-button {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width: 411px) {
+            html {
+                margin-top: auto;
+                height: 100%;
+            }
+            body {
+                width: fit-content;
+                height: 100%;
+                background-color: white;
+                color: black;
+                font-size: 0.8%;
+                justify-content: center;
+                padding: 0;
+                padding-top: 20%;
+            }
+            .wrapper {
+                height: 540px;
+                width: 100%;
+                padding: 5%;
+                margin: 0;
+            }
+            .logo {
+                height: 15%;
+                width: 25%;
+            }
+            .float-button {
+                position: fixed;
+                transition: all 0.2s ease-in 0s;
+                z-index: 9999;
+                cursor: pointer;
+            }
+            #button {
+                border-radius: 10px;
+                height: 40px;
+                width: 40px;
+                background-color: #172b35;
+                cursor: pointer;
+            }
+            @media print {
+                body {
+                    padding: 0;
+                    padding-right: 0;
+                }
+                .float-button {
+                    display: none;
+                }
+            }
+        }
