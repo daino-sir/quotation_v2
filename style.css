@@ -7,11 +7,11 @@
         body {
             width: 1349px;
             height: fit-content;
-            padding: 80%;
+            padding: 20%;
             padding-top: 0;
             padding-bottom: 0;
             height: 548px;
-            background-color: rgb(182, 182, 182);
+            background-color: #ececec;
             color: black;
             font-size: 100%;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -70,9 +70,9 @@
         }
         
         .head-flex {
+            margin-left: 2%;
             display: flex;
             flex-direction: row;
-            gap: 190px;
         }
         
         input {
@@ -108,6 +108,10 @@
             list-style: decimal;
         }
         
+        .flex-container {
+            padding-left: 3%;
+        }
+        
         @media print {
             html {
                 display: flex;
@@ -124,6 +128,10 @@
                 font-size: 80%;
                 padding: 0;
                 padding-top: 10%;
+            }
+            th {
+                background-color: #555555;
+                color: white;
             }
             .wrapper {
                 height: 540px;
@@ -193,7 +201,7 @@
             }
         }
         
-        @media screen and (min-width: 768px) {
+        @media screen and (max-width: 768px) {
             /* laptop screen */
             body {
                 display: flex;
@@ -234,7 +242,7 @@
                 cursor: pointer;
             }
             .head-flex {
-                gap: 150px;
+                gap: 190px;
             }
             input {
                 font-size: 30%;
@@ -243,7 +251,7 @@
         
         @media screen and (min-width: 1024px) {
             .head-flex {
-                gap: 230px;
+                gap: 300px;
             }
             input {
                 font-size: 50%;
