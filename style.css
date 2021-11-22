@@ -125,6 +125,10 @@
                 padding: 0;
                 padding-top: 10%;
             }
+            th {
+                background-color: #555555;
+                color: white;
+            }
             .wrapper {
                 height: 540px;
                 width: 100%;
