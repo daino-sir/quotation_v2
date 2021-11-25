@@ -204,7 +204,7 @@
                 cursor: pointer;
             }
             .head-flex {
-                gap: 200px;
+                gap: 200px !important;
             }
             input {
                 font-size: 30%;
